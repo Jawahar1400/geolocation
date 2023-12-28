@@ -1,0 +1,233 @@
+.main {
+    width: 50%;
+    display: flex;
+    background: rgb(23 67 68 / 69%);
+    border-radius: 7px;
+}
+
+.sidebar {
+    width: 20%;
+}
+
+.mainbar {
+    width: 80%;
+    border-left: 1px solid;
+}
+
+.tab-buttons {
+    display: flex;
+}
+
+.tab-buttons button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border: 1px solid #f1f1f1;
+    color: #fff;
+    font-size: 14px;
+}
+
+.tab-buttons button.active {
+    border-bottom: none;
+}
+
+.tab-content {
+    border: 1px solid;
+    border-top: none;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+.longitudes {
+    display: flex;
+    justify-content: end;
+}
+
+.city {
+    display: flex;
+    justify-content: end;
+    margin-right: 81px;
+}
+
+.grid img {
+    width: 105px;
+    height: 105px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+}
+
+.see-more {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 16%;
+}
+
+.One {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.user-review svg {
+    color: yellow;
+}
+
+.subtower {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.cancelIcon {
+    font-size: 20px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: white;
+    cursor: pointer;
+    background: #174243;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.cancelIcon svg{
+    margin-bottom: 2px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 200px;
+}
+
+.subtower-lonlog-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.subtower-lonlog-details span {
+    color: #fff;
+}
+
+.total-nums {
+    width: 100%;
+}
+
+.total {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+}
+
+.mainbar {
+    width: 70%;
+}
+
+.subtower-mainbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.tab-content::-webkit-scrollbar {
+    width: 5px;
+}
+
+.tab-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #fff;
+    border-radius: 10px;
+}
+
+.tab-content::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px #fff;
+}
+
+.basic-subtower-details {
+    width: 100%;
+    display: flex;
+}
+
+.subtower-lanlog-details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.tab-buttons {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.tab-buttons button {
+    width: calc(100% / 3);
+    background: none;
+    outline: none;
+    border: 1px solid #ccc;
+    /* height: 20px; */
+    padding: 6px;
+}
+
+.subtower-lanlog-details span {
+    display: flex;
+    justify-content: end;
+}
+
+.tab-info {
+    font-size: 14px;
+}
+
+.star {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.review-tit {
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #140a07;
+}
+
+@media only screen and (max-width: 768px) {
+    .cancelIcon {
+        top: 0px;
+        right: 0px;
+    }
+    .subtower-lonlog-details{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+}
